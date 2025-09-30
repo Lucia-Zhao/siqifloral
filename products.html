@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>我的产品展示</title>
+  <style>
+    body{font-family:system-ui,Arial;max-width:900px;margin:20px auto;padding:0 12px;color:#222}
+    .card{border:1px solid #eee;border-radius:12px;padding:12px;margin:12px 0;display:flex;gap:12px;align-items:flex-start}
+    img{width:200px;height:auto;border-radius:10px;border:1px solid #eee}
+    .price{font-weight:bold}
+    .btn{display:inline-block;padding:8px 12px;border:1px solid #111;border-radius:8px;text-decoration:none;color:#111;margin-right:8px}
+    .btn:hover{background:#111;color:#fff}
+  </style>
+</head>
+<body>
+  <h1>产品展示</h1>
+  <p>把你的产品图片和文字放在这里。下方示例先用占位图，稍后我们换成你的真实图片与链接。</p>
+
+  <!-- 产品卡片 1 -->
+  <div class="card">
+    <img src="images/sample1.jpg" alt="示例产品1（稍后换成你的图）">
+    <div>
+      <h2>红色浆果圣诞花环</h2>
+      <p class="price">¥199</p>
+      <p>手工制作，适合门厅与壁炉装饰。尺寸：45cm（示例文案，稍后替换）。</p>
+      <a class="btn" href="#" target="_blank">查看详情（可指向亚马逊）</a>
+    </div>
+  </div>
+
+  <!-- 产品卡片 2（可先留着） -->
+  <div class="card">
+    <img src="images/sample2.jpg" alt="示例产品2（稍后换成你的图）">
+    <div>
+      <h2>秋季南瓜花环</h2>
+      <p class="price">¥239</p>
+      <p>南瓜+枫叶+浆果，营造温暖秋日氛围（示例文案，稍后替换）。</p>
+      <a class="btn" href="#" target="_blank">查看详情（可指向亚马逊）</a>
+    </div>
+  </div>
+
+  <p style="color:#666">如果只要一个产品，就把第二个卡片整段删掉也可以。</p>
+</body>
+</html>
